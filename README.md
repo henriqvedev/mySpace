@@ -45,12 +45,20 @@ API RESTful simples que simula jogadores com seus armários e itens guardados, c
 
 ---
 
-### 🧩 Etapas para rodar
+### Etapas para rodar
 
 ```bash
-git clone <https://github.com/henriqvedev/mySpace.git>
+git clone https://github.com/henriqvedev/mySpace.git
 cd mySpace
 ./mvnw spring-boot:run
+
+```
+
+### Conexão com o H2
+```
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=quero
+spring.datasource.password=cafe
 
 ```
 
